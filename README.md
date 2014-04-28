@@ -4,7 +4,7 @@ StackTrace
 A little code which allows to display stacktrace if your program crash.
 
 
-On Linux :
+### On Linux :
 
 
 To compile on linux (with gcc), please compile with those 2 options :
@@ -16,7 +16,7 @@ For example :
 gcc -g -rdynamic main.c -o test
 
 
-On Windows :
+### On Windows :
 
 Under windows, the program needs to be linked to Dbghelp.lib
 
